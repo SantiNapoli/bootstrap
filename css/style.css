@@ -210,3 +210,20 @@ nav ul li a{
 .divpsn p{
     color: #EBCD6D;
 }
+div .parrafoi{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff8c00;
+}
+div h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff8c00;
+    text-align: center;
+    text-decoration: double;
+}
+div .parrafoi:hover{
+    color: #EBCD6D;
+    background-color: black;
+}
+.galeria:hover{
+    background-color: #ff8c00;
+}
