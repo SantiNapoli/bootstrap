@@ -202,3 +202,11 @@ nav ul li a{
 .divinfo:hover{
     background-color: #EBCD6D;
 }
+.divpsn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff8c00;
+
+}
+.divpsn p{
+    color: #EBCD6D;
+}
