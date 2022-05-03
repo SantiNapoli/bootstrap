@@ -1,0 +1,59 @@
+$yellow:#ff8c00;
+$black:black;
+$tipo-de-letra:Verdana, Geneva, Tahoma, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    min-height: 100%;
+    background-image: url(https://us.123rf.com/450wm/sumaetho/sumaetho1506/sumaetho150601501/41740000-fondo-azul-del-mosaico-poligonal-blanco-ilustraci%C3%B3n-vectorial-plantillas-del-dise%C3%B1o-del-negocio-crea.jpg?ver=6) ;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: lighter;
+    color: $yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 2px 2px $black;
+}
+nav{
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    ul{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    li{
+        display: flex;
+    border: ridge #EBCD6D;
+    justify-content: center;
+    }
+    a{
+        display: flex;
+        color: $yellow;
+        text-decoration: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-shadow: 2px 2px 2px $black;
+    }
+}
+.news{
+    color: $yellow;
+    text-align: center;
+    font-size: xx-large;
+    :hover{
+        animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    overflow: visible;}
+
+}

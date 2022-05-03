@@ -1,0 +1,30 @@
+$yellow:#ff8c00;
+$black:black;
+$tipo-de-letra:Verdana, Geneva, Tahoma, sans-serif;
+.galeria{
+        margin: 10px20px;
+        float: left;
+        width: 350px;
+        
+        .parrafoGaleria{font-size: 40px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+        .ps{
+            font-size: 35px;
+        text-align: center;
+        }
+        img{
+            width: 100%;
+        height: auto;
+        }
+        :hover{
+            border: 1px solid #ff8c00;
+        transform: rotate(-3deg);
+        background-color: #ff8c00;}
+        .pie{
+            text-align: center;
+        text-shadow: 2pz 2px 5px #ff8c00;
+        padding: 10px;
+        }
+}

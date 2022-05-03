@@ -1,0 +1,47 @@
+$yellow:#ff8c00;
+$black:black;
+$tipo-de-letra:Verdana, Geneva, Tahoma, sans-serif;
+.divpsn{
+    font-family: $tipo-de-letra;
+    color: $yellow;
+    p{
+        color: $black;
+    }
+    .parrafoi{
+        font-family: $tipo-de-letra;
+    color: $yellow;
+    }
+    h2{
+        font-family: $tipo-de-letra;
+    color: $black;
+    text-align: center;
+    text-decoration: double;
+    }
+    :hover{
+        color: #EBCD6D;
+    background-color: $black;
+    }
+    
+}
+.divinfo{
+    h3{
+        color: $black;
+        border: $yellow solid 1px;
+    }
+    .parrafoInfo1{
+        display: flex;
+        font-size: 30px;
+    }
+    .parrafoInfo2{
+        display: flex;
+        font-size: 30px;
+    }
+    .parrafoInfo3{
+        display: flex;
+        font-size: 30px;
+    }
+    :hover{
+        background-color: #EBCD6D;
+    }
+
+}
