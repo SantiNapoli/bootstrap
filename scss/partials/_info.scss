@@ -1,6 +1,4 @@
-$yellow:#ff8c00;
-$black:black;
-$tipo-de-letra:Verdana, Geneva, Tahoma, sans-serif;
+@import "../variables/variables";
 .divpsn{
     font-family: $tipo-de-letra;
     color: $yellow;

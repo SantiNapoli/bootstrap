@@ -1,0 +1,11 @@
+@import "../variables/variables";
+
+@mixin titulo {
+    text-align: center;
+    font-size: 100px;
+    font-weight: lighter;
+    color: $yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 2px 2px $black;
+    
+}

@@ -1,3 +1,6 @@
+.header-footer, footer {
+  background-color: grey; }
+
 * {
   margin: 0;
   padding: 0;
@@ -70,6 +73,9 @@ nav {
     text-align: center;
     text-shadow: 2pz 2px 5px #ff8c00;
     padding: 10px; }
+
+.header-footer, footer {
+  background-color: grey; }
 
 .divpsn {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
