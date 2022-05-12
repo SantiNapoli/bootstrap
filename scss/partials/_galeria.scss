@@ -2,11 +2,12 @@
 .galeria{
         margin: 10px20px;
         float: left;
-        width: 350px;
+        width: 50%;
+        margin-top: 5px;
         
         .parrafoGaleria{font-size: 40px;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+        
 }
         .ps{
             font-size: 35px;
@@ -23,6 +24,6 @@
         .pie{
             text-align: center;
         text-shadow: 2pz 2px 5px #ff8c00;
-        padding: 10px;
+        
         }
 }

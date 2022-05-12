@@ -8,7 +8,7 @@
 
 body {
   min-height: 100%;
-  background-image: url(https://us.123rf.com/450wm/sumaetho/sumaetho1506/sumaetho150601501/41740000-fondo-azul-del-mosaico-poligonal-blanco-ilustraci%C3%B3n-vectorial-plantillas-del-dise%C3%B1o-del-negocio-crea.jpg?ver=6);
+  background-image: url(https://i.pinimg.com/564x/40/62/62/406262939c15f19582965a54de6db945.jpg);
   background-size: cover; }
 
 h1 {
@@ -52,10 +52,17 @@ nav {
     animation-direction: alternate;
     overflow: visible; }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+
 .galeria {
   margin: 10px20px;
   float: left;
-  width: 350px; }
+  width: 50%;
+  margin-top: 5px; }
   .galeria .parrafoGaleria {
     font-size: 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
@@ -71,8 +78,7 @@ nav {
     background-color: #ff8c00; }
   .galeria .pie {
     text-align: center;
-    text-shadow: 2pz 2px 5px #ff8c00;
-    padding: 10px; }
+    text-shadow: 2pz 2px 5px #ff8c00; }
 
 .header-footer, footer {
   background-color: grey; }
